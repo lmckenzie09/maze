@@ -1,0 +1,13 @@
+Author: Lloyd Mckenzie
+
+Python script that randomly generates a square maze with a 2x2 center goal.
+
+Arguments: An even number that is greater than or equal to 6
+
+Notes:
+Even though there are multiple dead ends, there is usually only one path
+to the center from any corner. Essentially, these maps aren't useful when
+trying to test if your robot can find a more efficient path to the goal
+after getting there 
+Bugs:
+There is a chance that the center will be completely blocked off.
