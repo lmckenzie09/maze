@@ -9,5 +9,9 @@ Even though there are multiple dead ends, there is usually only one path
 to the center from any corner. Essentially, these maps aren't useful when
 trying to test if your robot can find a more efficient path to the goal
 after getting there 
+
+Fixes:
+2/15 It is now never possible for the center to be completely blocked off
 Bugs:
-There is a chance that the center will be completely blocked off.
+2/15 Sometimes there are still pieces of the maze blocked off. Mostly in a 2x1 or L shape
+2/13 There is a chance that the center will be completely blocked off.
